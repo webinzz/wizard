@@ -360,8 +360,11 @@ video {
   }
   .popimg {
     width: 100%;
+    background-size: cover;
+    background-repeat: norepeat;
   }
   .control-btn p{
     visibility: hidden;
+    display: none;
   }
 }
